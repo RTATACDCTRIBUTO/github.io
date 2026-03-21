@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>RT/AT - Rolling Thunder AC/DC Tributo</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap" rel="stylesheet">
+
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background: black;
+    color: white;
+}
+
+/* HERO */
+.hero {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 177.77vh;
+    height: 100vh;
+    transform: translate(-50%, -50%);
+    opacity: 0.3;
+}
+
+/* OVERLAY */
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(255,0,0,0.3), black);
+}
+
+/* TEXTO */
+.hero-content {
+    position: relative;
+    top: 40%;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 100px;
+    color: red;
+    text-shadow: 0 0 60px red;
+}
+
+.btn {
+    padding: 15px 40px;
+    background: red;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/* SECTIONS */
+.section {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+/* GALERIA */
+.gallery img {
+    width: 280px;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+/* WHATSAPP */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: red;
+    padding: 20px;
+    border-radius: 50%;
+    text-decoration: none;
+    color: white;
+}
+
+/* FOOTER */
+footer {
+    background: #111;
+    padding: 30px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+
+<!-- 🎥 VIDEO AUTOMATICO DO CANAL -->
+<iframe src="https://www.youtube.com/embed?listType=user_uploads&list=RollingThunder-RT&autoplay=1&mute=1&controls=0&loop=1"></iframe>
+
+<div class="overlay"></div>
+
+<div class="hero-content">
+    <h1>RT⚡AT</h1>
+    <p>Rolling Thunder AC/DC Tributo</p>
+
+    <a class="btn" href="https://wa.me/5511949349165">
+        CONTRATAR SHOW
+    </a>
+</div>
+
+</section>
+
+<!-- SOBRE -->
+<section class="section">
+<h2>SOBRE</h2>
+<p>
+A maior experiência AC/DC de São Paulo.
+Show com energia, presença de palco e impacto profissional.
+</p>
+</section>
+
+<!-- VIDEO PRINCIPAL -->
+<section class="section">
+<h2>SHOW AO VIVO</h2>
+
+<iframe width="80%" height="400"
+src="https://www.youtube.com/embed?listType=user_uploads&list=RollingThunder-RT">
+</iframe>
+
+</section>
+
+<!-- GALERIA -->
+<section class="section gallery">
+<h2>FOTOS</h2>
+
+<!-- ⚠️ COLE AQUI LINKS DIRETOS DO DRIVE (3 ou mais) -->
+<img src="https://drive.google.com/uc?export=view&id=ID1">
+<img src="https://drive.google.com/uc?export=view&id=ID2">
+<img src="https://drive.google.com/uc?export=view&id=ID3">
+
+</section>
+
+<!-- CONTATO -->
+<section class="section">
+<h2>CONTATO</h2>
+<p>WhatsApp: (11) 94934-9165</p>
+<p>rollingthunder.acdctribute@gmail.com</p>
+</section>
+
+<footer>
+<p>RT/AT - Rolling Thunder AC/DC Tributo</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/5511949349165">⚡</a>
+
+</body>
+</html>
